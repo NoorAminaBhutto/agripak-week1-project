@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+# Keep the original dataset out of accidental commits if it contains private data.
+# Remove the next line only if the internship explicitly requires the dataset in GitHub.
+# data/crop_data.csv

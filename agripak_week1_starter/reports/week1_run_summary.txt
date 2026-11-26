@@ -1,0 +1,16 @@
+Week 1 run summary — AgriPak Farms
+
+Dataset: 50,000 rows, 10 columns
+Target: low_yield_risk (0: 32,500; 1: 17,500)
+Missing values: 0
+Duplicate rows removed: 0
+Split: 40,000 train / 10,000 test, stratified, random_state=42
+
+Test metrics:
+Accuracy:  0.9187
+Precision: 0.8884
+Recall:    0.8780
+F1-score:  0.8832
+
+Leakage scan: 0 feature(s) exceeded absolute correlation > 0.90.
+Interpretation: no high-correlation feature was flagged by this threshold. This is a sanity check only; feature timing and meaning still need domain review.
